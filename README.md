@@ -18,7 +18,7 @@ backup your files and folders from the home directory and keep them safe. Made f
 
    - clone the project
    ```sh
-   git clone https://github.com/alxb421/USBUtility
+   git clone https://github.com/alxb421/packup.git
    ```
    - Open gambas3 application (from terminal `$ gambas3`, or from application dashboard, search for gambas3)
    - Click `Open`
@@ -46,4 +46,4 @@ backup your files and folders from the home directory and keep them safe. Made f
   ## Copyright
    - UI and ffrontend of app  made by Alexandru Balan
    - Icon/ some assets made by Andrei Muntean
-   - Backend is undone, but I will probably use axtlos's python scripts, I'm not sure
+   - Backend is undone, but I will probably use axtlos's sh scripts, I'm not sure

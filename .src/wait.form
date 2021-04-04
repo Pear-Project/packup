@@ -1,0 +1,9 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,85,23)
+  { ProgressBar1 ProgressBar
+    MoveScaled(2,16,81,2)
+    Border = False
+  }
+}

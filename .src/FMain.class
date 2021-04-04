@@ -1,0 +1,47 @@
+' Gambas class file
+
+Public hFile As File
+Public sLine As String
+
+
+Public Sub Form_Open()
+FMain.Show
+End
+
+' If auto_chk.Value = True Then
+'    Dim i As Float
+'    For i = 100 DownTo i = 1
+'      Wait 1
+'       i = i - 0
+'       lbl_next_packup.Text = "Packup will start in: " & i
+'    Next
+'    If lbl_next_packup.Text = "Packup will start in: 0" Then
+'      lbl_next_packup.Text = "Packup started"
+'      Exec ["touch", "/home/" & User.Name & "/Desktop/latest.car"]
+'      Shell "echo $(date +%d.%m.20%y) > ~/Desktop/latest.car"
+'      Wait 0.3
+' 
+'      hFile = Open "~/Desktop/latest.car" For Input
+'      While Not Eof(hFile)
+'       Line Input #hFile, sLine
+'       latestbackup.Text = "Latest packup: " & sLine
+'      Wend
+'   Message.Info("The backup is saved", "OK")
+'    Endif
+'  Endif
+' End
+
+
+Public Sub auto_chk_Click()
+  If auto_chk.Value = True Then
+   Dim i As Float
+   For i = 10 DownTo i = 1
+     Wait 1
+      i = i - 0
+      lbl_next_packup.Text = "Packup will start in: " & i
+   Next
+   If lbl_next_packup.Text = "Packup will start in: 0" Then
+      lbl_next_packup.Text = "Packup started"
+   Endif
+Endif
+End

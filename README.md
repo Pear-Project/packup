@@ -1,6 +1,6 @@
 # Packup tool for pearOS
 backup your files and folders from the home directory and keep them safe. Made for using in pearOS and NiceC0re based systems.
-# TODO: Backend of the app. Cureently it's just the UI in gambas3
+# TODO: Backend of the app. Currently it's just the UI in gambas3
 
 ## Screenshots :)
 ![Nice Screenshot](Screenshots/packup.png)

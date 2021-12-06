@@ -46,4 +46,4 @@ backup your files and folders from the home directory and keep them safe. Made f
   ## Copyright
    - UI and ffrontend of app  made by Alexandru Balan
    - Icon/ some assets made by Andrei Muntean
-   - Backend is undone, but I will probably use axtlos's sh scripts, I'm not sure
+   - Backend is coming soon
